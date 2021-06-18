@@ -1,0 +1,6 @@
+version: '3'
+services:
+  employee-app:
+    image: tjozsa/booking-app:latest
+    ports:
+     - 8888:8080
