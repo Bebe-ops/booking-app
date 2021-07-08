@@ -1,0 +1,1 @@
+web: java -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.security.egd=file:/dev/./urandom -Dserver.port=$PORT -jar build/libs/booking-app-0.0.1-SNAPSHOT.jar

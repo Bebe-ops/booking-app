@@ -23,6 +23,10 @@ repositories {
 	mavenCentral()
 }
 
+springBoot {
+	mainClass to "com.example.booking.BookingApplication"
+}
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
