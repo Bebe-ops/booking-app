@@ -3,4 +3,4 @@ services:
   employee-app:
     image: tjozsa/booking-app:latest
     ports:
-     - 8888:8080
+     - 8887:8080
